@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		940A2B4B1F4A9846007BBC8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A2B4A1F4A9846007BBC8D /* main.m */; };
+		940A2B4E1F4A9846007BBC8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A2B4D1F4A9846007BBC8D /* AppDelegate.m */; };
+		940A2B511F4A9846007BBC8D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A2B501F4A9846007BBC8D /* MainViewController.m */; };
+		940A2B541F4A9846007BBC8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940A2B521F4A9846007BBC8D /* Main.storyboard */; };
+		940A2B561F4A9846007BBC8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940A2B551F4A9846007BBC8D /* Assets.xcassets */; };
+		940A2B591F4A9846007BBC8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940A2B571F4A9846007BBC8D /* LaunchScreen.storyboard */; };
+		940A2B641F4A9846007BBC8D /* DailyPicNewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A2B631F4A9846007BBC8D /* DailyPicNewTests.m */; };
+		940A2B6F1F4A9846007BBC8D /* DailyPicNewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A2B6E1F4A9846007BBC8D /* DailyPicNewUITests.m */; };
+		940A2BA41F4A992F007BBC8D /* www in Resources */ = {isa = PBXBuildFile; fileRef = 940A2BA31F4A992F007BBC8D /* www */; };
+		940A2BA81F4A9969007BBC8D /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 940A2BA71F4A9969007BBC8D /* config.xml */; };
+		940A2BAB1F4A9A11007BBC8D /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 940A2B8B1F4A9906007BBC8D /* libCordova.a */; };
+		940A2BAF1F4A9A11007BBC8D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940A2BAD1F4A9A11007BBC8D /* AssetsLibrary.framework */; };
+		940A2BB01F4A9A11007BBC8D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940A2BAE1F4A9A11007BBC8D /* MobileCoreServices.framework */; };
+		945705141F4A9ED800C759E7 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 945705131F4A9ED800C759E7 /* MainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		940A2B601F4A9846007BBC8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 940A2B3E1F4A9846007BBC8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940A2B451F4A9846007BBC8D;
+			remoteInfo = DailyPicNew;
+		};
+		940A2B6B1F4A9846007BBC8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 940A2B3E1F4A9846007BBC8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940A2B451F4A9846007BBC8D;
+			remoteInfo = DailyPicNew;
+		};
+		940A2B8A1F4A9906007BBC8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 940A2B851F4A9905007BBC8D /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 68A32D7114102E1C006B237C;
+			remoteInfo = CordovaLib;
+		};
+		940A2B8C1F4A9906007BBC8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 940A2B851F4A9905007BBC8D /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C0C01EB21E3911D50056E6CB;
+			remoteInfo = Cordova;
+		};
+		945705111F4A9D6C00C759E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 940A2B851F4A9905007BBC8D /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		940A2B461F4A9846007BBC8D /* DailyPicNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyPicNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		940A2B4A1F4A9846007BBC8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		940A2B4C1F4A9846007BBC8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		940A2B4D1F4A9846007BBC8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		940A2B4F1F4A9846007BBC8D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		940A2B501F4A9846007BBC8D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		940A2B531F4A9846007BBC8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		940A2B551F4A9846007BBC8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		940A2B581F4A9846007BBC8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		940A2B5A1F4A9846007BBC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940A2B5F1F4A9846007BBC8D /* DailyPicNewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyPicNewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		940A2B631F4A9846007BBC8D /* DailyPicNewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyPicNewTests.m; sourceTree = "<group>"; };
+		940A2B651F4A9846007BBC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940A2B6A1F4A9846007BBC8D /* DailyPicNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyPicNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		940A2B6E1F4A9846007BBC8D /* DailyPicNewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyPicNewUITests.m; sourceTree = "<group>"; };
+		940A2B701F4A9846007BBC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940A2B851F4A9905007BBC8D /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		940A2BA31F4A992F007BBC8D /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		940A2BA71F4A9969007BBC8D /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		940A2BAD1F4A9A11007BBC8D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		940A2BAE1F4A9A11007BBC8D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		945705131F4A9ED800C759E7 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		940A2B431F4A9846007BBC8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940A2BAF1F4A9A11007BBC8D /* AssetsLibrary.framework in Frameworks */,
+				940A2BB01F4A9A11007BBC8D /* MobileCoreServices.framework in Frameworks */,
+				940A2BAB1F4A9A11007BBC8D /* libCordova.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940A2B5C1F4A9846007BBC8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940A2B671F4A9846007BBC8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		940A2B3D1F4A9846007BBC8D = {
+			isa = PBXGroup;
+			children = (
+				940A2BA71F4A9969007BBC8D /* config.xml */,
+				940A2BA31F4A992F007BBC8D /* www */,
+				940A2B851F4A9905007BBC8D /* CordovaLib.xcodeproj */,
+				940A2B481F4A9846007BBC8D /* DailyPicNew */,
+				940A2B621F4A9846007BBC8D /* DailyPicNewTests */,
+				940A2B6D1F4A9846007BBC8D /* DailyPicNewUITests */,
+				940A2B471F4A9846007BBC8D /* Products */,
+				940A2BAC1F4A9A11007BBC8D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		940A2B471F4A9846007BBC8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				940A2B461F4A9846007BBC8D /* DailyPicNew.app */,
+				940A2B5F1F4A9846007BBC8D /* DailyPicNewTests.xctest */,
+				940A2B6A1F4A9846007BBC8D /* DailyPicNewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		940A2B481F4A9846007BBC8D /* DailyPicNew */ = {
+			isa = PBXGroup;
+			children = (
+				940A2B4C1F4A9846007BBC8D /* AppDelegate.h */,
+				940A2B4D1F4A9846007BBC8D /* AppDelegate.m */,
+				940A2B4F1F4A9846007BBC8D /* MainViewController.h */,
+				945705131F4A9ED800C759E7 /* MainViewController.xib */,
+				940A2B501F4A9846007BBC8D /* MainViewController.m */,
+				940A2B521F4A9846007BBC8D /* Main.storyboard */,
+				940A2B551F4A9846007BBC8D /* Assets.xcassets */,
+				940A2B571F4A9846007BBC8D /* LaunchScreen.storyboard */,
+				940A2B5A1F4A9846007BBC8D /* Info.plist */,
+				940A2B491F4A9846007BBC8D /* Supporting Files */,
+			);
+			path = DailyPicNew;
+			sourceTree = "<group>";
+		};
+		940A2B491F4A9846007BBC8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				940A2B4A1F4A9846007BBC8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		940A2B621F4A9846007BBC8D /* DailyPicNewTests */ = {
+			isa = PBXGroup;
+			children = (
+				940A2B631F4A9846007BBC8D /* DailyPicNewTests.m */,
+				940A2B651F4A9846007BBC8D /* Info.plist */,
+			);
+			path = DailyPicNewTests;
+			sourceTree = "<group>";
+		};
+		940A2B6D1F4A9846007BBC8D /* DailyPicNewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				940A2B6E1F4A9846007BBC8D /* DailyPicNewUITests.m */,
+				940A2B701F4A9846007BBC8D /* Info.plist */,
+			);
+			path = DailyPicNewUITests;
+			sourceTree = "<group>";
+		};
+		940A2B861F4A9905007BBC8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				940A2B8B1F4A9906007BBC8D /* libCordova.a */,
+				940A2B8D1F4A9906007BBC8D /* Cordova.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		940A2BAC1F4A9A11007BBC8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				940A2BAD1F4A9A11007BBC8D /* AssetsLibrary.framework */,
+				940A2BAE1F4A9A11007BBC8D /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		940A2B451F4A9846007BBC8D /* DailyPicNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940A2B731F4A9846007BBC8D /* Build configuration list for PBXNativeTarget "DailyPicNew" */;
+			buildPhases = (
+				940A2B421F4A9846007BBC8D /* Sources */,
+				940A2B431F4A9846007BBC8D /* Frameworks */,
+				940A2B441F4A9846007BBC8D /* Resources */,
+				940A2BA91F4A9993007BBC8D /* copy www directory */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				945705121F4A9D6C00C759E7 /* PBXTargetDependency */,
+			);
+			name = DailyPicNew;
+			productName = DailyPicNew;
+			productReference = 940A2B461F4A9846007BBC8D /* DailyPicNew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		940A2B5E1F4A9846007BBC8D /* DailyPicNewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940A2B761F4A9846007BBC8D /* Build configuration list for PBXNativeTarget "DailyPicNewTests" */;
+			buildPhases = (
+				940A2B5B1F4A9846007BBC8D /* Sources */,
+				940A2B5C1F4A9846007BBC8D /* Frameworks */,
+				940A2B5D1F4A9846007BBC8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				940A2B611F4A9846007BBC8D /* PBXTargetDependency */,
+			);
+			name = DailyPicNewTests;
+			productName = DailyPicNewTests;
+			productReference = 940A2B5F1F4A9846007BBC8D /* DailyPicNewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		940A2B691F4A9846007BBC8D /* DailyPicNewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940A2B791F4A9846007BBC8D /* Build configuration list for PBXNativeTarget "DailyPicNewUITests" */;
+			buildPhases = (
+				940A2B661F4A9846007BBC8D /* Sources */,
+				940A2B671F4A9846007BBC8D /* Frameworks */,
+				940A2B681F4A9846007BBC8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				940A2B6C1F4A9846007BBC8D /* PBXTargetDependency */,
+			);
+			name = DailyPicNewUITests;
+			productName = DailyPicNewUITests;
+			productReference = 940A2B6A1F4A9846007BBC8D /* DailyPicNewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		940A2B3E1F4A9846007BBC8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yyfwptz;
+				TargetAttributes = {
+					940A2B451F4A9846007BBC8D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2A6J483DPS;
+						ProvisioningStyle = Automatic;
+					};
+					940A2B5E1F4A9846007BBC8D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EG38A8CGS3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 940A2B451F4A9846007BBC8D;
+					};
+					940A2B691F4A9846007BBC8D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EG38A8CGS3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 940A2B451F4A9846007BBC8D;
+					};
+				};
+			};
+			buildConfigurationList = 940A2B411F4A9846007BBC8D /* Build configuration list for PBXProject "DailyPicNew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 940A2B3D1F4A9846007BBC8D;
+			productRefGroup = 940A2B471F4A9846007BBC8D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 940A2B861F4A9905007BBC8D /* Products */;
+					ProjectRef = 940A2B851F4A9905007BBC8D /* CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				940A2B451F4A9846007BBC8D /* DailyPicNew */,
+				940A2B5E1F4A9846007BBC8D /* DailyPicNewTests */,
+				940A2B691F4A9846007BBC8D /* DailyPicNewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		940A2B8B1F4A9906007BBC8D /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 940A2B8A1F4A9906007BBC8D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		940A2B8D1F4A9906007BBC8D /* Cordova.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cordova.framework;
+			remoteRef = 940A2B8C1F4A9906007BBC8D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		940A2B441F4A9846007BBC8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940A2BA41F4A992F007BBC8D /* www in Resources */,
+				940A2B591F4A9846007BBC8D /* LaunchScreen.storyboard in Resources */,
+				940A2B561F4A9846007BBC8D /* Assets.xcassets in Resources */,
+				945705141F4A9ED800C759E7 /* MainViewController.xib in Resources */,
+				940A2B541F4A9846007BBC8D /* Main.storyboard in Resources */,
+				940A2BA81F4A9969007BBC8D /* config.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940A2B5D1F4A9846007BBC8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940A2B681F4A9846007BBC8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		940A2BA91F4A9993007BBC8D /* copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		940A2B421F4A9846007BBC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940A2B511F4A9846007BBC8D /* MainViewController.m in Sources */,
+				940A2B4E1F4A9846007BBC8D /* AppDelegate.m in Sources */,
+				940A2B4B1F4A9846007BBC8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940A2B5B1F4A9846007BBC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940A2B641F4A9846007BBC8D /* DailyPicNewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940A2B661F4A9846007BBC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940A2B6F1F4A9846007BBC8D /* DailyPicNewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		940A2B611F4A9846007BBC8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 940A2B451F4A9846007BBC8D /* DailyPicNew */;
+			targetProxy = 940A2B601F4A9846007BBC8D /* PBXContainerItemProxy */;
+		};
+		940A2B6C1F4A9846007BBC8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 940A2B451F4A9846007BBC8D /* DailyPicNew */;
+			targetProxy = 940A2B6B1F4A9846007BBC8D /* PBXContainerItemProxy */;
+		};
+		945705121F4A9D6C00C759E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 945705111F4A9D6C00C759E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		940A2B521F4A9846007BBC8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				940A2B531F4A9846007BBC8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		940A2B571F4A9846007BBC8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				940A2B581F4A9846007BBC8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		940A2B711F4A9846007BBC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		940A2B721F4A9846007BBC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		940A2B741F4A9846007BBC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2A6J483DPS;
+				INFOPLIST_FILE = DailyPicNew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgwx.yyfwptz.lixiang.DailyPicNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		940A2B751F4A9846007BBC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2A6J483DPS;
+				INFOPLIST_FILE = DailyPicNew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgwx.yyfwptz.lixiang.DailyPicNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		940A2B771F4A9846007BBC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EG38A8CGS3;
+				INFOPLIST_FILE = DailyPicNewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgwx.yyfwptz.lixiang.DailyPicNewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyPicNew.app/DailyPicNew";
+			};
+			name = Debug;
+		};
+		940A2B781F4A9846007BBC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EG38A8CGS3;
+				INFOPLIST_FILE = DailyPicNewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgwx.yyfwptz.lixiang.DailyPicNewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyPicNew.app/DailyPicNew";
+			};
+			name = Release;
+		};
+		940A2B7A1F4A9846007BBC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EG38A8CGS3;
+				INFOPLIST_FILE = DailyPicNewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgwx.yyfwptz.lixiang.DailyPicNewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DailyPicNew;
+			};
+			name = Debug;
+		};
+		940A2B7B1F4A9846007BBC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EG38A8CGS3;
+				INFOPLIST_FILE = DailyPicNewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgwx.yyfwptz.lixiang.DailyPicNewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DailyPicNew;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		940A2B411F4A9846007BBC8D /* Build configuration list for PBXProject "DailyPicNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940A2B711F4A9846007BBC8D /* Debug */,
+				940A2B721F4A9846007BBC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940A2B731F4A9846007BBC8D /* Build configuration list for PBXNativeTarget "DailyPicNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940A2B741F4A9846007BBC8D /* Debug */,
+				940A2B751F4A9846007BBC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940A2B761F4A9846007BBC8D /* Build configuration list for PBXNativeTarget "DailyPicNewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940A2B771F4A9846007BBC8D /* Debug */,
+				940A2B781F4A9846007BBC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940A2B791F4A9846007BBC8D /* Build configuration list for PBXNativeTarget "DailyPicNewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940A2B7A1F4A9846007BBC8D /* Debug */,
+				940A2B7B1F4A9846007BBC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 940A2B3E1F4A9846007BBC8D /* Project object */;
+}
